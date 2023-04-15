@@ -18,5 +18,5 @@
  *
  * No lookup tables are used, its simply a byte by byte crc32 algorithm.
  */
-void
+uint32_t
 crc32(const void *input, size_t size);
